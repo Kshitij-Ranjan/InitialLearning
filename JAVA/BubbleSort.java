@@ -2,6 +2,8 @@ package JAVA;
 import java.util.Scanner;
 public class BubbleSort {
 
+    // time complexity = O (n^2)
+
     static void printArray(int[] bubbles){
         // printing array
         for (int bubble : bubbles) {
