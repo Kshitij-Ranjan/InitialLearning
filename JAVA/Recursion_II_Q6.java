@@ -1,6 +1,9 @@
 package JAVA;
 
 public class Recursion_II_Q6 {
+
+    // Didn't Understand
+
     public static boolean[] map = new boolean[26];
     public static void removeDuplicates(String str, int indx, String newString){
         if(indx == str.length()){
