@@ -1,36 +1,25 @@
-# api/spotify.py
-import os
 import json
+import os
 from spotipy import Spotify
-from spotipy.oauth2 import SpotifyOAuth
+from spotipy.oauth2 import SpotifyClientCredentials
 
 def handler(request):
-    sp = Spotify(auth_manager=SpotifyOAuth(
-        client_id=os.environ["SPOTIFY_CLIENT_ID"],
-        client_secret=os.environ["SPOTIFY_CLIENT_SECRET"],
-        redirect_uri="http://127.0.0.1:8888/callback",
-        scope="user-read-currently-playing"
+    sp = Spotify(auth_manager=SpotifyClientCredentials(
+        client_id=os.environ["SPOTIPY_CLIENT_ID"],
+        client_secret=os.environ["SPOTIPY_CLIENT_SECRET"]
     ))
 
-    current = sp.currently_playing()
+    results = sp.search(q='artist:Taylor Swift', type='track', limit=1)
+    track_info = results['tracks']['items'][0]
 
-    if not current or not current.get("is_playing"):
-        return {
-            "statusCode": 200,
-            "headers": {"Content-Type": "application/json"},
-            "body": json.dumps({"status": "Not playing anything"})
-        }
-
-    track = current["item"]["name"]
-    artist = ", ".join([a["name"] for a in current["item"]["artists"]])
-    url = current["item"]["external_urls"]["spotify"]
+    response = {
+        "track": track_info['name'],
+        "artist": ", ".join([artist['name'] for artist in track_info['artists']]),
+        "url": track_info['external_urls']['spotify']
+    }
 
     return {
         "statusCode": 200,
         "headers": {"Content-Type": "application/json"},
-        "body": json.dumps({
-            "track": track,
-            "artist": artist,
-            "url": url
-        })
+        "body": json.dumps(response)
     }
