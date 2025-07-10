@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0ea6ce-d066-43a0-8466-6ed780a0fff3" name="Changes" comment="" />
+    <list default="true" id="ca0ea6ce-d066-43a0-8466-6ed780a0fff3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/InitialLearning/HTML/H1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InitialLearning/HTML/H1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InitialLearning/HTML/cat-aesthetic-pc-wallpapedaev0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InitialLearning/HTML/thumb-1920-903819.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,11 +46,19 @@
     &quot;Application.Recursion1.executor&quot;: &quot;Run&quot;,
     &quot;Application.Recursion2_fabonnaciSequence.executor&quot;: &quot;Run&quot;,
     &quot;Application.Recursion3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion_III_Q1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion_III_Q2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion_III_Q3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion_III_Q4.executor&quot;: &quot;Run&quot;,
     &quot;Application.Recursion_II_Q1.executor&quot;: &quot;Run&quot;,
     &quot;Application.Recursion_II_Q2.executor&quot;: &quot;Run&quot;,
     &quot;Application.Recursion_II_Q3.executor&quot;: &quot;Run&quot;,
     &quot;Application.Recursion_II_Q4.executor&quot;: &quot;Run&quot;,
     &quot;Application.Recursion_II_Q5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion_II_Q6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion_II_Q7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion_II_Q8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion_II_Q9.executor&quot;: &quot;Run&quot;,
     &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -58,7 +71,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -99,7 +112,8 @@
       <updated>1751013338805</updated>
       <workItem from="1751312907937" duration="9673000" />
       <workItem from="1751395339388" duration="8926000" />
-      <workItem from="1751458165436" duration="1027000" />
+      <workItem from="1751458165436" duration="46241000" />
+      <workItem from="1751994192156" duration="333000" />
     </task>
     <servers />
   </component>
