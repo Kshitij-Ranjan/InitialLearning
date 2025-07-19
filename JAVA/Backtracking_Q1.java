@@ -2,7 +2,7 @@ package JAVA;
 
 public class Backtracking_Q1 {
     public static void printPermutation(String str, String perm, int idx) {
-        if (str.length() == 0) {
+        if (str.isEmpty()) {
             System.out.println(perm);
             return;
         }
