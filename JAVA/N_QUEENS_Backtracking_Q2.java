@@ -81,7 +81,7 @@ public class N_QUEENS_Backtracking_Q2 {
             if(isSafe( row , col , board)){
                 board[row][col] = 'Q';
                 helper(board, allboards, col+1);
-                board[row][col] = '.'; // to remove queen when we backtrack
+                board[row][col] = '.'; // to replace queen when we backtrack
             }
         }
     }
