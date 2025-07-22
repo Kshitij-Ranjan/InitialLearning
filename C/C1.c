@@ -10,14 +10,14 @@ int main()
 
         if(p == 0)
         {
-                printf("Your number is 0.");
-        } 
+                printf("Your number is 0.\n");
+        }
         else if (q == 0)
         {
-                printf("Your number is even.");
+                printf("Your number is even.\n");
         }
         else{
-                printf("Your number is odd.");
+                printf("Your number is odd.\n");
         }
         return 0;
 }   
