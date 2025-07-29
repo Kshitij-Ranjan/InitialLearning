@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kshitij/Documents/InitialLearning/C/C1'
+relocations:     []
+...

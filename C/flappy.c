@@ -1,4 +1,5 @@
-#include <SDL2/SDL.h>
+#include <SDL.h>
+#include <stdio.h>
 #include <stdbool.h>
 
 #define WINDOW_WIDTH 800
