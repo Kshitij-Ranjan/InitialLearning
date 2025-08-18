@@ -1,14 +1,12 @@
-<<<<<<< Updated upstream
-if __name__ == '__main__':
-    n = int(input())
-    if 1<=n<=150:
-        for n in range(2,n+2):
-            print(n-1, end="")
-=======
-if __name__ == '__main__':
-    n = int(input())
-    if 1<=n<=150:
-        for n in range(2,n+2):
-            print(n-1, end="")
->>>>>>> Stashed changes
-            print(n+1, end="")
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Test Window")
+window.geometry("300x200")  # optional size
+
+# Add something inside the window (like a Label)
+label = tk.Label(window, text="Hello, Tkinter!", font=("Arial", 18), fg="white", bg="black")
+label.pack(pady=60)  # center it with some space
+
+window.configure(bg='black')  # make background match
+window.mainloop()

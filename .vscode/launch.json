@@ -1,6 +1,13 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "OOPS1",
+            "request": "launch",
+            "mainClass": "JAVA.OOPS1",
+            "projectName": "InitialLearning_749986b2"
+        },
+        {
             "name": "C/C++: clang build and debug active file",
             "type": "cppdbg",
             "request": "launch",
